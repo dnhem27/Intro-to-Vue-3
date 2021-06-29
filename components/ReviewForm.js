@@ -41,7 +41,7 @@ app.component('review-form', {
                 alert('Review is incomplete. Please fill out every field.')
                 return
             }
-            let productReview = {
+            const productReview = {
                 name : this.name,
                 review: this.review,
                 rating: this.rating,
